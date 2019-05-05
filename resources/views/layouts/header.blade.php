@@ -7,7 +7,7 @@
           <ul class="primary-nav">
             <li><a href="#banner">Home</a></li>
             <li><a href="#intro">About</a></li>
-            <li><a href="#events">Events</a></li>        
+            <li><a href="{{ url('/').'#events' }}">Events</a></li>        
             <li><a href="#gallery">Gallery</a></li>		 
             <li><a href="#teams">Our Team</a></li> 
             <li><a href="#contact">Contact</a></li>

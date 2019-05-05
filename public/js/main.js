@@ -36,7 +36,8 @@ $(document).ready(function() {
 	});
 	nav.find('a').on('click', function () {
 	  	var $el = $(this)
-	    	id = $el.attr('href');
+			id = $el.attr('href');
+			id=id.substring(id.indexOf("#"))
 		$('html, body').animate({
 			scrollTop: $(id).offset().top - 75
 		}, 500);
