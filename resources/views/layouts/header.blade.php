@@ -5,12 +5,12 @@
         <nav class="navigation" role="navigation">
            
           <ul class="primary-nav">
-            <li><a href="#banner">Home</a></li>
-            <li><a href="#intro">About</a></li>
-            <li><a href="{{ url('/').'#events' }}">Events</a></li>        
-            <li><a href="#gallery">Gallery</a></li>		 
-            <li><a href="#teams">Our Team</a></li> 
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="{{ url('/').'#banner'}} "><i class="fa fa-2x fa-home"></i> Home</a></li>          
+            <li><a href="{{ url('/').'#services'}}">Service Kami</a></li>
+            <li><a href="{{ url('/').'#events' }}">Event Terkini</a></li>        
+            <li><a href="{{ url('/').'#gallery' }}">Gallery</a></li>		 
+            <li><a href="{{ url('/').'#teams'}}">Our Team</a></li> 
+            <li><a href="{{ url('/').'#contact'}}">Contact</a></li>
           </ul>
         </nav>
         <a href="#" class="nav-toggle">Menu<span></span></a> </div>

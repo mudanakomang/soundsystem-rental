@@ -1,45 +1,50 @@
 @extends('layouts.master')
-@section('intro')
+{{-- @section('intro')
 <section id="intro" class="section intro">
   <div class="container">
     <div class="col-md-8 col-md-offset-2 text-center">
-      <h3>Don't Miss This Event</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+      <h3>Muds Sound System & Lightning</h3>
+      <p></p> 
         <a href="#events" class="btn btn-large">Events</a> 
     </div>
   </div>
 </section>
-@endsection
+@endsection --}}
 @section('services')
 <section id="services" class="services service-section">
     <div class="container">
     <div class="section-header">
-                  <h2 class="wow fadeInDown animated">News & Updates</h2>
-                  <p class="wow fadeInDown animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
-              </div>
+      <h2 class="wow fadeInDown animated">Muds Sound System & Lightning</h2>
+      <p class="wow fadeInDown animated">Kami melayani persewaan perlatan & perlengkapan untuk event anda.<br> Berpengalaman dalam menangani kegiatan pernikahan, peluncuran produk, exhibition, opening / grand opening, seminar, konser musik dan kegiatan lainnya. </p>
+     </div>
       <div class="row"> 
-        <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-recycle"></span>
+      <div class="col-md-4 col-sm-6 services text-center"><span class="icon"> <img src="{{ asset('images/mixer.png')}}" alt="Sound System & Lightning" width="70px"></span>
           <div class="services-content">
-            <h5>Musical Night</h5>
-        <b>Day 1</b>
+            <h5>Sound System & Lightning</h5>
+              {{-- <b>Day 1</b> --}}
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-heart"></span>
+      <div class="col-md-4 col-sm-6 services text-center"><span class="icon"> <img src="{{ asset('images/stage.png')}}" alt="Peralatan panggung" width="70px"></span>
           <div class="services-content">
-            <h5>Dancing Night</h5>
-        <b>Day 2</b>
+            <h5>Perlengkapan Panggung</h5>
+              {{-- <b>Day 2</b> --}}
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
           </div>
         </div> 
-        <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-megaphone"></span>
+      <div class="col-md-4 col-sm-6 services text-center"> <span class="icon"><img src="{{ asset('images/deco.png')}}" alt="Dekorasi" width="70px"></span>
           <div class="services-content">
-            <h5>Food Night</h5>
-        <b>Day 3</b>
+            <h5>Tenda dan Dekorasi</h5>
+            {{-- <b></b> --}}
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
           </div>
         </div> 
       </div>
+     
+      <div class="col-md-8 col-md-offset-2 text-center">     
+            <a href="{{ url('/').'#events'}} " class="btn btn-large" >Event Terkini</a> 
+      </div>
+      
     </div>
   </section> 
 @endsection
